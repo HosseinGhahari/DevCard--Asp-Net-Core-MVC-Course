@@ -1,5 +1,11 @@
-﻿@model List<Project>
+﻿@*
+   here we have our _Projects component and we
+   import our Article model then we do a loop on model
+   to take all of the data and show them on view
+*@
 
+
+@model List<Project>
 
 <section class="featured-section p-3 p-lg-5">
 	<div class="container">
@@ -16,7 +22,7 @@
 							<div class="col-lg-8">
 								<div class="card-body">
 									<h5 class="card-title">
-										<a href="project.html" class="theme-link">
+										<a href="#" class="theme-link">
 											@project.Title
 										</a>
 									</h5>

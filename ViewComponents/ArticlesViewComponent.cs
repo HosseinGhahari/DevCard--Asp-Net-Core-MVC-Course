@@ -3,6 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DevCard___MVC.ViewComponents
 {
+	// Here we use a ViewComponent for having control
+	// of every single part of our website and
+	// Invoke Method do the Fill Opreation on model
+	// and pass it to Our Article view with return
+
 	public class ArticlesViewComponent : ViewComponent
 	{
 		public IViewComponentResult Invoke()

@@ -10,6 +10,14 @@
 	<link rel="stylesheet" href="~/assets/css/style.css">
 
 </head>
+
+    @*
+    here we separated the header and footer
+    and put it on a PartialView for clean coding
+    also separated the dynamic page and used a
+    RenderBody for using those pages
+    *@
+
 <body>
 
     <partial name="Partial/Header" />
@@ -29,8 +37,8 @@
     <script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
     @* validation jquery scripts (unobtrusive) *@
-    @*<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> 
 
 </body>
 </html>

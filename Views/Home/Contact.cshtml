@@ -2,6 +2,8 @@
     ViewData["Title"] = "صفحه کانتکت";
 }
 
+@model Contact
+
 <section class="cta-section theme-bg-light py-5">
 	<div class="container text-center single-col-max-width">
 		<h2 class="heading">ارتباط با ما</h2>
@@ -55,33 +57,63 @@
 
 <section class="contact-section px-3 py-5 p-md-5">
 	<div class="container">
-		<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="#">
+
+		@*
+		here we take the viewbag from the action
+		if it was not null it means it's succus or Error
+		*@
+
+		@if (!string.IsNullOrWhiteSpace(@ViewBag.success))
+		{
+			<div class="alert-success p-2" style="color:darkgreen">
+				<p>@ViewBag.success</p>
+			</div>
+		}
+		@if (!string.IsNullOrWhiteSpace(@ViewBag.error))
+		{
+			<div class="alert-success p-2" style="color:red">
+				<p>@ViewBag.error</p>
+			</div>
+		}
+
+
+		@*
+		here we give the form contact action via asp-action
+		also we say every every input which model property
+		should use for taking the data
+		also pass the validation property via asp-validation-for
+		*@
+
+		<form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" asp-action="Contact">
 			<h3 class="text-center mb-3">در دسترس باشید!</h3>
 			<div class="form-row">
 				<div class="form-group col-md-6">
-					<label class="sr-only" for="cname">نام</label>
-					<input type="text" class="form-control" id="cname" name="name" placeholder="نام"
-						   minlength="2" required="" aria-required="true">
+					<label class="sr-only" asp-for="Name">نام</label>
+					<input type="text" class="form-control" asp-for="Name" placeholder="نام" /> 
+					<span asp-validation-for="Name" class="text-danger"></span>
 				</div>
 				<div class="form-group col-md-6">
-					<label class="sr-only" for="cemail">ایمیل</label>
-					<input type="email" class="form-control" id="cemail" name="email" placeholder="ایمیل"
-						   required="" aria-required="true">
+					<label class="sr-only" asp-for="Email">ایمیل</label>
+					<input type="email" class="form-control" asp-for="Email" placeholder="ایمیل" />
+					<span asp-validation-for="Email" class="text-danger"></span>
 				</div>
+
+				@*
+				here we use asp-items cos it's accpet a selectlist
+				and it's responsible for filling out our drop-down list
+				*@
+
 				<div class="form-group col-12">
-					<select id="services" class="custom-select" name="services">
-						<option selected>سرویس مورد نظر خود را انتخاب کنید...</option>
-						<option value="basic">نقره ای</option>
-						<option value="standard">طلایی</option>
-						<option value="premium">پلاتین</option>
-						<option value="not sure">الماس</option>
+					<select class="custom-select" asp-for="Service" asp-items="Model.ServiceItems">
+						<option value="0" selected ="selected" >سرویس مورد نظر خود را انتخاب کنید...</option>
 					</select>
 				</div>
 				<div class="form-group col-12">
-					<label class="sr-only" for="cmessage">پیغام شما</label>
-					<textarea class="form-control" id="cmessage" name="message"
-							  placeholder="پیغام خود را وارد نمایید ..." rows="10" required=""
+					<label class="sr-only" asp-for="Message">پیغام شما</label>
+					<textarea class="form-control" asp-for="Message"
+							  placeholder="پیغام خود را وارد نمایید ..." rows="10"
 							  aria-required="true"></textarea>
+					<span asp-validation-for="Message" class="text-danger"></span>
 				</div>
 				<div class="form-group col-12">
 					<button type="submit" class="btn btn-block btn-primary py-2">ارسال</button>

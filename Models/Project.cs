@@ -1,5 +1,7 @@
 ﻿namespace DevCard___MVC.Models
 {
+	// these properties specify data of Project
+	// part of the website form index page
 	public class Project
 	{
         public int Id { get; set; }
@@ -8,7 +10,10 @@
         public string Client { get; set; }
         public string Image { get; set; }
 
-        public Project(int id , string title , string text , string image, string client)
+
+		// for easier implementation we used a constructor
+		// also implementation happen via a ViewComponents
+		public Project(int id , string title , string text , string image, string client)
         {
             Id = id;
             Title = title;
