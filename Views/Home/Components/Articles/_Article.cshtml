@@ -1,9 +1,14 @@
 ﻿@*
-   here we have our _Articles component and we
-   import our Article model then we do a loop on model
-   to take all of the data and show them on view
+	here we have our _Articles component and we
+	import our Article model then we do a loop on model
+	to take all of the data and show them on view
 *@
 
+@*
+	also we create link for Details page 
+	and use asp-route-id to send the id of
+	selected item to Action of ArticleDetails
+*@
 
 @model List<Article>
 
@@ -19,14 +24,14 @@
 						<img class="card-img-top" src="assets/images/blog/@article.Image" alt="image">
 						<div class="card-body">
 							<h5 class="card-title">
-								<a class="theme-link" href="#">
+								<a class="theme-link" asp-controller="Home" asp-action="ArticleDetails" asp-route-id="@article.Id">
 									@article.Id : @article.Title
 								</a>
 							</h5>
 							<p class="card-text">
 								@article.Text
 							</p>
-							<p class="mb-0"><a class="more-link" href="#">ادامه مطلب</a></p>
+							<p class="mb-0"><a class="more-link" asp-controller="Home" asp-action="ArticleDetails" asp-route-id="@article.Id">ادامه مطلب</a></p>
 
 						</div>
 					</div>

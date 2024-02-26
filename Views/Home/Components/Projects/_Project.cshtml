@@ -1,11 +1,18 @@
-﻿@*
+﻿@model List<Project>
+@*
    here we have our _Projects component and we
    import our Article model then we do a loop on model
    to take all of the data and show them on view
 *@
 
 
-@model List<Project>
+
+
+@*
+	also we create link for Details page
+	and use asp-route-id to send the id of
+	selected item to Action of ProjectDetails
+*@
 
 <section class="featured-section p-3 p-lg-5">
 	<div class="container">
@@ -22,8 +29,8 @@
 							<div class="col-lg-8">
 								<div class="card-body">
 									<h5 class="card-title">
-										<a href="#" class="theme-link">
-											@project.Title
+										<a asp-controller="Home" asp-action="ProjectDetails" asp-route-id="@project.Id" class="theme-link">
+											@project.Id : @project.Title
 										</a>
 									</h5>
 									<p class="card-text">

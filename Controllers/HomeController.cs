@@ -1,4 +1,5 @@
-﻿using DevCard___MVC.Models;
+﻿using DevCard___MVC.Data;
+using DevCard___MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
@@ -24,6 +25,27 @@ namespace DevCard___MVC.Controllers
 		public IActionResult Index()
 		{
 			return View();
+		}
+
+
+		// in this action we take the id that is sent
+		// in parameter and we use GetProjectby Method
+		// to receive that id and pass it to the view
+		// for showing the items in detail page
+		public IActionResult ProjectDetails(long id)
+		{
+			var project = ProjectStore.GetProjectby(id);
+			return View(project);
+		}
+
+		// in this action we take the id that is sent
+		// in parameter and we use GetArticleby Method
+		// to receive that id and pass it to the view
+		// for showing the items in detail page
+		public IActionResult ArticleDetails(long id)
+		{
+			var article = ArticleStore.GetArticleBy(id);
+			return View(article);
 		}
 
 

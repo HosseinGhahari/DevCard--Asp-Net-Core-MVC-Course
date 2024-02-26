@@ -1,4 +1,5 @@
-﻿using DevCard___MVC.Models;
+﻿using DevCard___MVC.Data;
+using DevCard___MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevCard___MVC.ViewComponents
@@ -6,20 +7,14 @@ namespace DevCard___MVC.ViewComponents
 	// Here we use a ViewComponent for having control
 	// of every single part of our website and
 	// Invoke Method do the Fill Opreation on model
+	// also Data Come from Method of ProjectStore Class 
 	// and pass it to Our Article view with return
 
 	public class ProjectsViewComponent : ViewComponent
 	{
 		public IViewComponentResult Invoke()
 		{
-			var project = new List<Project>
-			{
-				new Project(1, "تاکسی", "درخواست آنلاین تاکسی برای سفر های درون شهری", "project-1.jpg", "Atriya"),
-				new Project(2, "زودفود", "درخواست آنلاین غذا برای سراسر کشور", "project-2.jpg","ZoodFood"),
-				new Project(3, "مدارس", "سیستم مدیریت یکپارچه مدارس", "project-3.jpg","MONOP"),
-				new Project(4, "فضاپیما", "برنامه مدیریت فضاپیما های ناسا","project-4.jpg", "NASA"),
-			};
-
+			var project = ProjectStore.GetProjects();
 			return View("_Project" , project);
 		}
 		
