@@ -1,4 +1,5 @@
 * linguist-vendored
 *.C# linguist-vendored=true
 *.C# linguist-detectable=true
-
+*.htm inguist-detectable=false
+*.html inguist-detectable=false
