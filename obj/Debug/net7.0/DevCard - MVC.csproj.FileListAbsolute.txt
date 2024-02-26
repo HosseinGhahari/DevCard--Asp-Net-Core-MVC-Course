@@ -1,0 +1,30 @@
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\appsettings.Development.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\appsettings.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.staticwebassets.runtime.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.exe
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.deps.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.runtimeconfig.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.dll
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\bin\Debug\net7.0\DevCard - MVC.pdb
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.AssemblyInfoInputs.cache
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.AssemblyInfo.cs
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.csproj.CoreCompileInputs.cache
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.RazorAssemblyInfo.cache
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.RazorAssemblyInfo.cs
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets\msbuild.DevCard - MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets\msbuild.build.DevCard - MVC.props
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DevCard - MVC.props
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DevCard - MVC.props
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets.pack.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets.build.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\staticwebassets.development.json
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\scopedcss\bundle\DevCard - MVC.styles.css
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\scopedcss\projectbundle\DevCard - MVC.bundle.scp.css
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.dll
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\refint\DevCard - MVC.dll
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.pdb
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\DevCard - MVC.genruntimeconfig.cache
+C:\My Work\2- Programming\3- C# Learning\1-Practise And Learning\Atria Asp.net Course\3- DevCard - MVC\obj\Debug\net7.0\ref\DevCard - MVC.dll
