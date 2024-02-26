@@ -1,6 +1,6 @@
 *.C# linguist-detectable=true
 *.css linguist-detectable=false
-*.html linguist-detectable=false
+*.html linguist-detectable=true
 
 
 ###############################################################################
